@@ -1,0 +1,341 @@
+/* Mobile responsiv */
+@media only screen and (min-width:320px) and (max-width:576px) {
+    #section1 {
+        width: 100%;
+    }
+
+    #header {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        /* position: fixed; */
+        border-bottom: 2px solid black;
+    }
+
+    .responsbtn {
+        display: block;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        left: -100%;
+        transition: 0.5s;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .showMenu {
+        left: 0% !important;
+    }
+
+    .responsbtn i {
+        font-weight: bold;
+        font-size: 30px;
+        color: white;
+        position: absolute;
+        left: 90px;
+        top: 0;
+    }
+
+    .responsbtn ul {
+        display: block !important;
+        position: absolute;
+        left: 80px;
+        top: 200px;
+    }
+
+    .responsbtn ul li {
+        margin-top: 10px;
+        color: aliceblue;
+    }
+
+    #logo {
+        width: 30%;
+        height: 70px;
+
+    }
+
+    #logo a {
+        width: 100%;
+        height: 70px;
+    }
+
+    #logo a img {
+        width: 100%;
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    #menu {
+        width: 70%;
+        height: 80px;
+        font-weight: bold;
+        font-size: 20px;
+
+    }
+
+    #menu ul {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        display: none;
+        font-size: 30px;
+        color: white;
+    }
+
+    #menu i {
+        display: block;
+    }
+
+    #intro {
+        width: 300px;
+        height: 80px;
+        font-size: 20px;
+        margin-top: 310px;
+        text-align: center;
+    }
+
+    #intro p {
+        width: 300px;
+        height: 80px;
+        font-size: 30px;
+        /* margin-top: 0px; */
+    }
+
+    #intro p:hover {
+        color: white;
+        transition: 4s;
+        font-size: 27px;
+    }
+
+    #intro i {
+        position: absolute;
+        top: 362px;
+        left: 130px;
+        font-weight: bold;
+        width: 38px;
+        height: 42px;
+    }
+
+    #Introduction {
+        width: 100%;
+
+    }
+
+    .Introduction_img {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+
+    }
+
+    #Introduction :nth-child(2) {
+        font-size: 35px;
+        margin: 20px auto;
+    }
+
+    #Introduction :nth-child(3) {
+        width: 300px;
+        font-size: 16px;
+        margin: 0px auto;
+    }
+
+    #Introduction :nth-child(4) {
+        width: 300px;
+        font-size: 16px;
+        margin: 10px auto;
+    }
+
+    #Introduction button {
+        width: 100px;
+        height: 20px;
+        font-size: 16px;
+        margin: 10px 0px;
+    }
+
+    .Curabitur {
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Curabitur_1 {
+        width: 100%;
+        margin: 20px auto;
+
+    }
+
+    .Curabitur_1 :nth-child(1) {
+        width: 100%;
+        font-size: 50px;
+
+    }
+
+    .Curabitur_1 :nth-child(2) {
+        width: 100%;
+        font-size: 16px;
+        font-weight: bold;
+        color: #3496d8;
+    }
+
+    .Curabitur_1 :nth-child(3) {
+        width: 90%;
+        margin-top: 2%;
+        font-size: 16px;
+    }
+
+    #section3 :nth-child(1) {
+        width: 100%;
+        font-size: 40px;
+    }
+
+    #section3 :nth-child(2) {
+        width: 80%;
+        margin: 0px auto;
+        font-size: 16px;
+    }
+
+    #Ourwork {
+        height: 1400px;
+        flex-direction: column;
+    }
+
+    #Ourwork :nth-child(1) {
+        width: 250px;
+        height: 250px;
+        margin-top: 10px;
+        margin: 5px;
+        border-radius: 20px;
+
+    }
+
+    #Ourwork :nth-child(2) {
+        width: 250px;
+        height: 250px;
+        margin-top: 10px;
+        margin: 5px;
+        border-radius: 20px;
+
+    }
+
+    #Ourwork :nth-child(3) {
+        width: 250px;
+        height: 250px;
+        margin-top: 10px;
+        margin: 5px;
+        border-radius: 20px;
+
+    }
+
+    #Ourwork :nth-child(4) {
+        width: 250px;
+        height: 250px;
+        margin-top: 10px;
+        margin: 5px;
+        border-radius: 20px;
+
+    }
+
+    #Ourwork :nth-child(5) {
+        width: 250px;
+        height: 250px;
+        margin-top: 10px;
+        margin: 5px;
+        border-radius: 20px;
+
+    }
+
+    #section4 {
+        margin-top: 50px;
+        background-color: black;
+    }
+
+    #Contactus :nth-child(1) {
+        width: 300px;
+        height: 60px;
+        font-size: 30px;
+    }
+
+    #Contactus :nth-child(2) {
+        width: 300px;
+        margin: 30px auto;
+        font-size: 14px;
+    }
+
+    .footer {
+        width: 300px;
+        height: 270px;
+        flex-direction: column;
+    }
+
+    .footer_left {
+        width: 300px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .footer_left i:nth-child(1) {
+        color: white;
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .footer_right i:nth-child(1) {
+        color: white;
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .footer_left p:nth-child(1) {
+        color: white;
+        font-size: 30px;
+    }
+
+    .footer_left p:nth-child(2) {
+        color: white;
+        font-size: 20px;
+    }
+
+    .footer_right p:nth-child(1) {
+        color: white;
+        font-size: 20px;
+    }
+
+    input {
+        height: 20px;
+        background: none;
+        border-radius: 20px;
+        margin-top: 40px;
+    }
+
+    button {
+        border-radius: 20px;
+        height: 20px;
+        width: 80px;
+    }
+
+    .footer_right {
+        width: 300px;
+        font-size: 30px;
+        font-weight: bold;
+
+    }
+
+    .footer_right a i {
+        font-size: 35px;
+        margin-left: 130px;
+    }
+
+    .pend {
+        text-align: center;
+        color: white;
+        margin-top: 50px;
+        font-size: 12px;
+    }
+}
+
+/* tablate responsiv */
+@media only screen and (min-width:577px) and (max-width:1270px) {}
